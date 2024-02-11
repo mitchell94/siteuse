@@ -1,0 +1,511 @@
+/* NAV STYLES */
+nav {
+    background-color: #811632;
+    display: flex;
+    height: 39px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+nav .social-article {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.btn-admin,
+.btn-intranet {
+    border-radius: 10px;
+    font-size: 0.7em;
+    font-weight: bold;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    text-decoration: none;
+}
+
+.btn-admin {
+    background-color: white;
+    color: black;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.btn-admin:hover {
+    background-color: #dddddd;
+    color: black;
+}
+
+.btn-intranet {
+    background-color: #fb8a05;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.btn-intranet:hover {
+    background-color: #dc7907;
+    color: white;
+}
+
+main {
+    padding-top: 39px;
+    position: relative;
+}
+
+/* HEADER SECTION STYLES */
+.header-section {
+    background-image: linear-gradient(to bottom, #811633e9, #811632);
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.logo {
+    height: 64px;
+    width: 64px;
+}
+
+.header-section .col-md {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.unsm-name,
+.fcs-name {
+    color: white;
+    display: flex;
+    font-size: 0.7em;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+
+.use-name {
+    color: white;
+    font-family: BarlowBold;
+    font-size: 1.8em;
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+}
+
+.img-fondo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.img-fondo > img {
+    z-index: 1;
+}
+
+/* SECTION STYLES - GENERAL*/
+.section-title {
+    padding-bottom: 20px;
+}
+
+.section-title span:nth-child(1) {
+    color: #811632;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.section-title span:nth-child(3) {
+    color: gray;
+}
+
+/* NOSOTROS SECTION STYLES */
+.autoridad {
+    background-color: rgb(247, 247, 247);
+}
+.autoridad div:nth-child(1) {
+    color: #434343;
+    font-family: BarlowBold;
+    text-align: center;
+}
+
+.autoridad div:nth-child(2) {
+    color: rgb(135, 135, 135);
+    font-weight: bold;
+}
+/* ADMISION SECTION STYLES */
+.admision-section {
+    background-color: #eef6f5;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.admision-title {
+    color: #4f0e30;
+    font-family: BarlowCondensedBold;
+    font-size: 3em;
+    line-height: 1;
+}
+
+.admision-subtitle {
+    color: #811632;
+    font-family: OpenSans;
+    font-size: 1.5em;
+    line-height: 1;
+    margin-top: 15px;
+}
+
+.admision-registration {
+    margin-bottom: 25px !important;
+    margin-top: 20px !important;
+}
+
+.admision-registration a {
+    background-color: #811632;
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+}
+
+.admision-registration a:hover {
+    background-color: #4f0e30;
+    color: white;
+}
+
+.requirements-list {
+    text-align: justify;
+}
+
+/* PROGRAMAS SECTION STYLES */
+.programas-section,
+.presentacion-section,
+.autoridades-section {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.aro-card,
+.eco-card,
+.cacu-card {
+    border: none !important;
+    font-family: BarlowBold;
+}
+
+.card-img-top {
+    border-radius: 0 !important;
+}
+
+.aro-card .card-body {
+    background-color: #f4f8ff;
+    padding-top: 20px;
+}
+
+.eco-card .card-body {
+    background-color: #f4fde3;
+    padding-top: 20px;
+}
+
+.cacu-card .card-body {
+    background-color: #fae6e5;
+    padding-top: 20px;
+}
+
+.program-card .card-text {
+    text-shadow:
+        -1px -1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
+}
+
+.aro-card .card-text {
+    color: #03437d;
+}
+
+.eco-card .card-text {
+    color: #8dd804;
+}
+
+.cacu-card .card-text {
+    color: #fa549e;
+}
+
+.card .card-body div {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-aro,
+.btn-eco,
+.btn-cacu {
+    color: white !important;
+    font-family: BarlowBold !important;
+    font-size: 0.7em !important;
+}
+
+.btn-aro {
+    background-color: #03437d !important;
+}
+
+.btn-eco {
+    background-color: #8dd804 !important;
+}
+
+.btn-cacu {
+    background-color: #fa549e !important;
+}
+
+footer {
+    background-color: #eef6f5;
+    position: relative;
+}
+
+.contacto span:nth-child(1) {
+    color: #811632;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+footer section:nth-child(2) {
+    background-color: #811632;
+    color: white;
+    font-family: BarlowBold;
+    font-size: 0.9em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+footer section:nth-child(1) .container {
+    padding-bottom: 40px;
+}
+
+.footer-title {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.footer-title span:nth-child(1) {
+    color: #811632;
+    font-size: 2.4em;
+    font-weight: bold;
+}
+
+.menu-button {
+    background-color: #811632;
+    border: none;
+    border-radius: 50%;
+    bottom: 20px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.5em;
+    padding: 8px 15px 8px 15px;
+    position: fixed;
+    right: 20px;
+    z-index: 3;
+}
+
+#menu {
+    bottom: 80px;
+    box-shadow: 0 0 8px #811633a7;
+    position: fixed;
+    right: 20px;
+    z-index: 3;
+}
+
+.menu-lista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-lista li {
+    border: 1px solid #bbbbbb;
+    display: flex;
+}
+
+.menu-lista li a {
+    background-color: white;
+    color: #4f0e30;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    width: 100%;
+}
+
+/* ESTILOS DE LA PÁGINA DE ADMISIÓN */
+/* ----------------------------------------------- */
+.article-title {
+    color: #811632;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.admision-horario table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-bottom: 0;
+}
+
+.admision-horario thead,
+th {
+    background-color: #811632 !important;
+}
+
+.admision-horario th {
+    border: 2px solid black !important;
+    color: white;
+    font-family: BarlowBold;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.admision-horario td {
+    border: 2px solid black !important;
+    font-family: BarlowRegular;
+    font-size: 0.8em;
+    text-align: center;
+    text-wrap: balance;
+    vertical-align: middle;
+}
+
+.downloads-list {
+    padding-bottom: 10px;
+}
+
+.numbers {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* ESTILSO DE LAS PÁGINAS DE PROGRAMAS */
+/* ----------------------------------------------------------- */
+.aro-plan,
+.eco-plan,
+.cacu-plan {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.aro-plan {
+    background-color: #f4f8ff;
+}
+
+.eco-plan {
+    background-color: #f4fde3;
+}
+
+.cacu-plan {
+    background-color: #fae6e5;
+}
+
+.aro-plan-title,
+.eco-plan-title,
+.cacu-plan-title {
+    font-family: BarlowBold;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow:
+        -1px -1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
+}
+
+.aro-plan-title {
+    color: #03437d;
+}
+
+.eco-plan-title {
+    color: #8dd804;
+}
+
+.cacu-plan-title {
+    color: #fa549e;
+}
+
+.aro-plan-article {
+    color: #03437d;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.eco-plan-article {
+    color: #8dd804;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.cacu-plan-article {
+    color: #fa549e;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.program-list {
+    text-align: justify;
+}
+
+.plan-table-title {
+    display: flex;
+    font-size: 1.1em;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.aro-plan table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-bottom: 0;
+}
+
+.aro-plan th,
+.eco-plan th,
+.cacu-plan th {
+    border: 2px solid black;
+    color: white;
+    font-family: BarlowBold;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.aro-plan th {
+    background-color: #03437d;
+}
+
+.eco-plan th {
+    background-color: #8dd804;
+}
+
+.cacu-plan th {
+    background-color: #fa549e;
+}
+
+.aro-plan td,
+.eco-plan td,
+.cacu-plan td {
+    border: 2px solid black;
+    font-family: BarlowRegular;
+    font-size: 0.7em;
+    text-align: center;
+    text-wrap: balance;
+    vertical-align: middle;
+}
+
+@font-face {
+    font-family: BarlowRegular;
+    src: url('fuentes/Barlow/Barlow-Regular.ttf');
+}
+
+@font-face {
+    font-family: BarlowBold;
+    src: url('fuentes/Barlow/Barlow-Bold.ttf');
+}
+
+@font-face {
+    font-family: BarlowCondensedBold;
+    src: url('fuentes/Barlow_Condensed/BarlowCondensed-Bold.ttf');
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url('fuentes/Open_Sans/static/OpenSans-Regular.ttf');
+}
