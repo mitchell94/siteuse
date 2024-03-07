@@ -1,16 +1,37 @@
+<script setup>
+import { useSeoMeta } from '@unhead/vue'
+
+useSeoMeta({
+    title: 'Ecografía Obstétrica | Segunda Especialidad - FCS',
+    description:
+        'El programa de Segunda Especialidad en Ecografía Obstétrica te prepara para interpretar adecuadamente los resultados de cada uno de los exámenes y procedimientos auxiliares del diagnóstico usados en el diagnóstico de la salud materna y fetal en el nivel de su competencia.',
+    ogTitle: 'Ecografía Obstétrica | Segunda Especialidad - FCS',
+    ogDescription:
+        'El programa de Segunda Especialidad en Ecografía Obstétrica te espera, matricúlate ya.'
+})
+</script>
+
 <template>
     <section class="parent-container header-section">
         <div class="container">
             <div class="row">
                 <div class="col-auto ms-auto">
-                    <img src="../assets/img/unsm.webp" alt="" class="logo" />
+                    <img
+                        src="../assets/img/unsm.webp"
+                        alt="Logo de la Universidad Nacional de San Martín"
+                        class="logo"
+                    />
                 </div>
                 <div class="col col-md">
                     <div class="mb-3 unsm-name">UNIVERSIDAD NACIONAL DE SAN MARTÍN</div>
                     <div class="mb-3 fcs-name">FACULTAD DE CIENCIAS DE LA SALUD</div>
                 </div>
                 <div class="col-auto me-auto">
-                    <img src="../assets/img/fcs.webp" alt="" class="logo" />
+                    <img
+                        src="../assets/img/fcs.webp"
+                        alt="Logo de la Facultad de Ciencias de la Salud"
+                        class="logo"
+                    />
                 </div>
             </div>
         </div>
@@ -18,13 +39,13 @@
 
     <section class="parent-container eco-plan">
         <div class="container">
-            <div class="row">
+            <div class="row py-2" style="background-color: rgb(220, 220, 220)">
                 <div class="col-md-8 offset-md-2 eco-plan-title">
                     SEGUNDA ESPECIALIDAD EN ECOGRAFÍA OBSTÉTRICA CON MENCIÓN EN MONITOREO FETAL
                     ELECTRÓNICO
                 </div>
             </div>
-            <div class="row">
+            <div class="row gx-md-5">
                 <div class="col-md-6 mt-3 mt-md-4">
                     <div class="eco-plan-article">OBJETIVOS</div>
                     <div class="mt-3">

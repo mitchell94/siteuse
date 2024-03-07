@@ -29,6 +29,7 @@ nav .social-article {
     padding-left: 12px;
     padding-right: 12px;
 }
+
 .btn-admin:hover {
     background-color: #dddddd;
     color: black;
@@ -79,12 +80,18 @@ main {
 }
 
 .use-name {
-    color: white;
+    /* color: white;
     font-family: BarlowBold;
-    font-size: 1.8em;
+    font-size: 1.8em; */
     position: absolute;
     text-align: center;
     z-index: 2;
+}
+
+.use-name > h1 {
+    color: white;
+    font-family: BarlowBold;
+    font-size: 1.8em;
 }
 
 .img-fondo {
@@ -127,6 +134,7 @@ main {
     color: rgb(135, 135, 135);
     font-weight: bold;
 }
+
 /* ADMISION SECTION STYLES */
 .admision-section {
     background-color: #eef6f5;
@@ -175,7 +183,9 @@ main {
 /* PROGRAMAS SECTION STYLES */
 .programas-section,
 .presentacion-section,
-.autoridades-section {
+.mision-vision-section,
+.autoridades-section,
+.historia-section {
     padding-bottom: 20px;
     padding-top: 20px;
 }
@@ -334,7 +344,7 @@ footer section:nth-child(1) .container {
 /* ----------------------------------------------- */
 .article-title {
     color: #811632;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: bold;
     padding-bottom: 10px;
 }
@@ -376,7 +386,7 @@ th {
     font-weight: bold;
 }
 
-/* ESTILSO DE LAS PÁGINAS DE PROGRAMAS */
+/* ESTILOS DE LAS PÁGINAS DE PROGRAMAS */
 /* ----------------------------------------------------------- */
 .aro-plan,
 .eco-plan,
@@ -390,7 +400,7 @@ th {
 }
 
 .eco-plan {
-    background-color: #f4fde3;
+    background-color: #f4fde384;
 }
 
 .cacu-plan {
@@ -404,10 +414,10 @@ th {
     font-size: 1.5em;
     text-align: center;
     text-shadow:
-        -1px -1px 0 #fff,
-        1px -1px 0 #fff,
-        -1px 1px 0 #fff,
-        1px 1px 0 #fff;
+        -1px -1px 0 #eeeeee,
+        1px -1px 0 #eeeeee,
+        -1px 1px 0 #eeeeee,
+        1px 1px 0 #eeeeee;
 }
 
 .aro-plan-title {
@@ -415,7 +425,8 @@ th {
 }
 
 .eco-plan-title {
-    color: #8dd804;
+    /* color: #8dd804; */
+    color: #74ae08;
 }
 
 .cacu-plan-title {
@@ -429,7 +440,8 @@ th {
 }
 
 .eco-plan-article {
-    color: #8dd804;
+    /* color: #8dd804; */
+    color: #85c116;
     font-size: 1.2em;
     font-weight: bold;
 }
@@ -491,21 +503,25 @@ th {
 }
 
 @font-face {
+    font-display: swap;
     font-family: BarlowRegular;
     src: url('fuentes/Barlow/Barlow-Regular.ttf');
 }
 
 @font-face {
+    font-display: swap;
     font-family: BarlowBold;
     src: url('fuentes/Barlow/Barlow-Bold.ttf');
 }
 
 @font-face {
+    font-display: swap;
     font-family: BarlowCondensedBold;
     src: url('fuentes/Barlow_Condensed/BarlowCondensed-Bold.ttf');
 }
 
 @font-face {
+    font-display: swap;
     font-family: OpenSans;
     src: url('fuentes/Open_Sans/static/OpenSans-Regular.ttf');
 }

@@ -12,8 +12,11 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.1",
+    "@unhead/vue": "^1.8.11",
     "bootstrap": "^5.2.3",
+    "unhead": "^1.8.11",
     "vue": "^3.4.15",
+    "vue-meta": "^2.4.0",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {

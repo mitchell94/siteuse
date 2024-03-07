@@ -8,8 +8,11 @@
     }
 
     .use-name {
-        font-size: 2.5em;
         width: 70%;
+    }
+
+    .use-name > h1 {
+        font-size: 2.5em;
     }
 
     .img-fondo {
@@ -77,8 +80,11 @@
     }
 
     .use-name {
-        font-size: 3.5em;
         width: 70%;
+    }
+
+    .use-name > h1 {
+        font-size: 3.5em;
     }
 
     /* SECTION STYLES - GENERAL*/
@@ -134,8 +140,11 @@
     }
 
     .use-name {
-        font-size: 4em;
         width: 70%;
+    }
+
+    .use-name > h1 {
+        font-size: 4em;
     }
 
     /* SECTION STYLES - GENERAL*/
@@ -230,7 +239,7 @@
         font-size: 1.9em;
     }
 
-    .use-name {
+    .use-name > h1{
         font-size: 4.5em;
     }
 
@@ -282,5 +291,11 @@
     .parent-container {
         padding-left: 170px;
         padding-right: 170px;
-    }    
+    }
+
+    .aro-plan-title,
+    .eco-plan-title,
+    .cacu-plan-title {
+        font-size: 1.7em;
+    }
 }

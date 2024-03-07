@@ -24,17 +24,17 @@ const router = createRouter({
                     component: () => import('../views/AdmisionView.vue')
                 },
                 {
-                    path: '/aro',
+                    path: '/obstetricia-de-alto-riesgo',
                     name: 'aro',
                     component: () => import('../views/ProgramaAro.vue')
                 },
                 {
-                    path: '/eco',
+                    path: '/ecografia-obstetrica',
                     name: 'eco',
                     component: () => import('../views/ProgramaEco.vue')
                 },
                 {
-                    path: '/cacu',
+                    path: '/salud-reproductiva',
                     name: 'cacu',
                     component: () => import('../views/ProgramaCacu.vue')
                 }

@@ -1,4 +1,15 @@
 <script setup>
+import { useSeoMeta } from '@unhead/vue'
+
+useSeoMeta({
+    title: 'Inicio | Segunda Especialidad - FCS',
+    description:
+        'Alcanza el título de Especialista en uno de los programas de Segunda Especialidad en Obstetricia de la Universidad Nacional de San Martín, Tarapoto.',
+    ogTitle: 'Inicio | Segunda Especialidad - FCS',
+    ogDescription:
+        'Alcanza el título de Especialista en uno de los programas de Segunda Especialidad en Obstetricia - UNSM.'
+})
+
 let preventClick = (e) => {
     e.preventDefault()
 }
@@ -9,14 +20,22 @@ let preventClick = (e) => {
         <div class="container">
             <div class="row">
                 <div class="col-auto ms-auto">
-                    <img src="../assets/img/unsm.webp" alt="" class="logo" />
+                    <img
+                        src="../assets/img/unsm.webp"
+                        alt="Logo de la Universidad Nacional de San Martín"
+                        class="logo"
+                    />
                 </div>
                 <div class="col col-md">
                     <div class="mb-3 unsm-name">UNIVERSIDAD NACIONAL DE SAN MARTÍN</div>
                     <div class="mb-3 fcs-name">FACULTAD DE CIENCIAS DE LA SALUD</div>
                 </div>
                 <div class="col-auto me-auto">
-                    <img src="../assets/img/fcs.webp" alt="" class="logo" />
+                    <img
+                        src="../assets/img/fcs.webp"
+                        alt="Logo de la Facultad de Ciencias de la Salud"
+                        class="logo"
+                    />
                 </div>
             </div>
         </div>
@@ -26,7 +45,7 @@ let preventClick = (e) => {
         <video autoplay loop muted playsinline width="100%" @contextmenu="preventClick">
             <source src="../assets/img/bg_animation_50.webm" type="video/webm" />
         </video>
-        <div class="use-name">UNIDAD DE SEGUNDA ESPECIALIDAD</div>
+        <div class="use-name"><h1>UNIDAD DE SEGUNDA ESPECIALIDAD</h1></div>
     </section>
 
     <section class="parent-container admision-section">
@@ -58,7 +77,7 @@ let preventClick = (e) => {
                         <img
                             src="../assets/img/programas/aro.webp"
                             class="card-img-top"
-                            alt="..."
+                            alt="Imagen de presentación Obstetricia de Alto Riesgo"
                         />
                         <div class="card-body">
                             <p class="card-text text-center">
@@ -66,7 +85,9 @@ let preventClick = (e) => {
                                 CUIDADOS INTENSIVOS MATERNOS
                             </p>
                             <div>
-                                <RouterLink to="/cacu" class="btn btn-aro">VER PROGRAMA</RouterLink>
+                                <RouterLink to="/obstetricia-de-alto-riesgo" class="btn btn-aro"
+                                    >VER PROGRAMA</RouterLink
+                                >
                             </div>
                         </div>
                     </div>
@@ -77,7 +98,7 @@ let preventClick = (e) => {
                         <img
                             src="../assets/img/programas/eco.webp"
                             class="card-img-top"
-                            alt="..."
+                            alt="Imagen de presentación de Ecografía Obstétrica"
                         />
                         <div class="card-body">
                             <p class="card-text text-center">
@@ -85,7 +106,9 @@ let preventClick = (e) => {
                                 MONITOREO FETAL ELECTRÓNICO
                             </p>
                             <div>
-                                <RouterLink to="/cacu" class="btn btn-eco">VER PROGRAMA</RouterLink>
+                                <RouterLink to="/ecografia-obstetrica" class="btn btn-eco"
+                                    >VER PROGRAMA</RouterLink
+                                >
                             </div>
                         </div>
                     </div>
@@ -96,7 +119,7 @@ let preventClick = (e) => {
                         <img
                             src="../assets/img/programas/cacu.webp"
                             class="card-img-top"
-                            alt="..."
+                            alt="Imagen de presentación de Salud Reproductiva"
                         />
                         <div class="card-body">
                             <p class="card-text text-center">
@@ -104,7 +127,7 @@ let preventClick = (e) => {
                                 DE CÁNCER DE CUELLO UTERINO Y MAMA
                             </p>
                             <div>
-                                <RouterLink to="/cacu" class="btn btn-cacu"
+                                <RouterLink to="/salud-reproductiva" class="btn btn-cacu"
                                     >VER PROGRAMA</RouterLink
                                 >
                             </div>
