@@ -144,7 +144,7 @@ useSeoMeta({
                             </tr>
                             <tr>
                                 <td>Ecografía de Mama</td>
-                                <td>4</td>
+                                <td>3</td>
                             </tr>
                             <tr>
                                 <td>Investigación II</td>

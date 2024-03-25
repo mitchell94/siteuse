@@ -47,11 +47,51 @@ useSeoMeta({
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col mt-3">
+                    <div class="resultados-title">
+                        <i class="fa-solid fa-angle-right"></i>
+                        <i class="fa-solid fa-angle-right"></i>
+                        <i class="fa-solid fa-angle-right"></i>
+                        <i><a href="https://drive.google.com/file/d/1-M23puW3Xii_JicgbGgrDX_1A8KF5TuG/view?usp=sharing" target="_blank" class="mx-2">RESULTADOS 2024-I</a></i>
+                        <i class="fa-solid fa-angle-left"></i>
+                        <i class="fa-solid fa-angle-left"></i>
+                        <i class="fa-solid fa-angle-left"></i>
+                    </div>
+                </div>
+            </div>
             <div class="row gx-md-5">
                 <div class="col-md-6 mt-3 mt-md-5">
                     <div class="row">
-                        <div class="col-12 admision-horario">
-                            <div class="article-title">HORARIO DE CLASES (Semipresencial)</div>
+                        <div class="mb-1 fw-bold">DIRIGIDO A</div>
+                        <div class="mb-1" style="text-align: justify">
+                            Profesionales titulados en Obstetricia.
+                        </div>
+                        <div class="mb-1 fw-bold">REQUISITOS DE ADMISIÓN</div>
+                        <div class="mb-1">
+                            <ul class="requirements-list">
+                                <li>
+                                    Copia del Título Profesional autenticado por el Fedatario de la
+                                    universidad de origen, si es egresado de otras universidades.
+                                </li>
+                                <li>
+                                    Copia simple del Título Profesional para egresados de la
+                                    Universidad Nacional de San Martín.
+                                </li>
+                                <li>Copia simple del DNI.</li>
+                                <li>Solicitud de inscripción.</li>
+                                <li>Recibo de pago por derecho de inscripción y/o admisión.</li>
+                                <li>Ficha de datos.</li>
+                            </ul>
+                            <a
+                                href="./descargas/FORMATOS-2024-I.pdf"
+                                download="FORMATOS-SE-2024-I.pdf"
+                                >DESCARGAR FORMATOS DE INSCRIPCIÓN 2024 - I</a
+                            >
+                        </div>
+
+                        <div class="col-12 mt-3 mt-md-4 admision-horario">
+                            <div class="article-title">HORARIO DE CLASES</div>
                             <table class="table table-sm table-bordered">
                                 <thead>
                                     <tr>
@@ -113,137 +153,83 @@ useSeoMeta({
                                 </tbody>
                             </table>
                         </div>
-                        <div class="col-12 mt-3 mt-md-4 admision-horario">
-                            <div class="article-title">COSTOS DE ENSEÑANZA</div>
-                            <div class="fw-bold">
-                                1. OBSTETRICIA DE ALTO RIESGO <br />
-                                2. SALUD REPRODUCTIVA
-                            </div>
-                            <table class="table table-sm table-bordered">
-                                <thead>
-                                    <tr>
-                                        <th>CONCEPTO</th>
-                                        <th>CANT</th>
-                                        <th>COSTO</th>
-                                        <th>TOTAL</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Inscripción</td>
-                                        <td>1</td>
-                                        <td>S/ 100.00</td>
-                                        <td>S/ 100.00</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Derecho de carpeta</td>
-                                        <td>1</td>
-                                        <td>S/ 250.00</td>
-                                        <td>S/ 250.00</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Matrícula por ciclo</td>
-                                        <td>3</td>
-                                        <td>S/ 300.00</td>
-                                        <td>S/ 900.00</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Pensión de estudios</td>
-                                        <td>18</td>
-                                        <td>S/ 400.00</td>
-                                        <td>S/ 7200.00</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <div class="mt-3 fw-bold">3. ECOGRAFÍA OBSTÉTRICA</div>
-                            <table class="table table-sm table-bordered">
-                                <thead>
-                                    <tr>
-                                        <th>CONCEPTO</th>
-                                        <th>CANT</th>
-                                        <th>COSTO</th>
-                                        <th>TOTAL</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Inscripción</td>
-                                        <td>1</td>
-                                        <td>S/ 100.00</td>
-                                        <td>S/ 100.00</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Derecho de carpeta</td>
-                                        <td>1</td>
-                                        <td>S/ 250.00</td>
-                                        <td>S/ 250.00</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Matrícula por ciclo</td>
-                                        <td>3</td>
-                                        <td>S/ 400.00</td>
-                                        <td>S/ 1200.00</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Pensión de estudios</td>
-                                        <td>18</td>
-                                        <td>S/ 450.00</td>
-                                        <td>S/ 8100.00</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                        <div class="col-12 mt-3 mt-md-4 admision-horario">
-                            <div class="article-title">BANCO DE LA NACIÓN</div>
-                            <span class="numbers">Cta. Cte: 00541-043101</span>
-                        </div>
                     </div>
                 </div>
                 <div class="col-md-6 mt-3 mt-md-5">
-                    <div class="mb-1 fw-bold">DIRIGIDO A</div>
-                    <div class="mb-1" style="text-align: justify">
-                        Profesionales Obstetras que deseen ser especialistas laborando en
-                        instituciones.
+                    <div class="col-12 admision-horario">
+                        <div class="article-title">COSTOS DE ENSEÑANZA</div>
+                        <div class="fw-bold">
+                            1. OBSTETRICIA DE ALTO RIESGO <br />
+                            2. SALUD REPRODUCTIVA
+                        </div>
+                        <table class="table table-sm table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>CONCEPTO</th>
+                                    <th>CANT</th>
+                                    <th>COSTO</th>
+                                    <th>TOTAL</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Inscripción y/o admisión</td>
+                                    <td>1</td>
+                                    <td>S/ 350.00</td>
+                                    <td>S/ 350.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Matrícula por ciclo</td>
+                                    <td>3</td>
+                                    <td>S/ 300.00</td>
+                                    <td>S/ 900.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Mensualidad</td>
+                                    <td>18</td>
+                                    <td>S/ 400.00</td>
+                                    <td>S/ 7200.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="mt-3 fw-bold">3. ECOGRAFÍA OBSTÉTRICA</div>
+                        <table class="table table-sm table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>CONCEPTO</th>
+                                    <th>CANT</th>
+                                    <th>COSTO</th>
+                                    <th>TOTAL</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Inscripción y/o admisión</td>
+                                    <td>1</td>
+                                    <td>S/ 350.00</td>
+                                    <td>S/ 350.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Matrícula por ciclo</td>
+                                    <td>3</td>
+                                    <td>S/ 400.00</td>
+                                    <td>S/ 1200.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Mensualidad</td>
+                                    <td>18</td>
+                                    <td>S/ 450.00</td>
+                                    <td>S/ 8100.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <div class="mb-1 fw-bold">REQUISITOS DE ADMISIÓN</div>
-                    <div class="mb-1">
-                        <ul class="requirements-list">
-                            <li>Solicitud de Admisión, debidamente llenada.</li>
-                            <li>
-                                Título Profesional de Obstetra registrado en SUNEDU (copia
-                                autenticada por la Universidad de origen para Universidades
-                                Nacionales, o revalidadas por SUNEDU en el caso de Universidades
-                                Extranjeras).
-                            </li>
-                            <li>Currículo Vitae con documentos de los 3 últimos años.</li>
-                            <li>
-                                Copia del DNI legalizada por Notario, o del Carné de Extranjería o
-                                Pasaporte si es extranjero.
-                            </li>
-                            <li>
-                                Recibo de pago por Derecho de Inscripción y Derecho de Admisión.
-                            </li>
-                            <li>
-                                Cuatro (04) fotografías recientes; con terno, tamaño carné a
-                                colores.
-                            </li>
-                            <li>Compromiso de pago de estudios de Segunda Especialidad.</li>
-                            <li>Compromiso de entrega de documentos faltantes.</li>
-                            <li>Declaración Jurada de Autenticidad.</li>
-                        </ul>
+                    <div class="col-12 mt-3 mt-md-4 admision-horario">
+                        <div class="article-title">BANCO DE LA NACIÓN</div>
+                        <span class="numbers">Cta. Cte: 00541-043101</span>
                     </div>
-                    <div class="article-title">DESCARGAR FORMATOS</div>
-                    <ol class="downloads-list">
-                        <li>
-                            <a
-                                href="./descargas/FORMATOS (04) ADMISION 2024-I.pdf"
-                                download="formatos-admision-2024-I.pdf"
-                                >FORMATOS DE INSCRIPCIÓN 2024 - I</a
-                            >
-                        </li>
-                    </ol>
-                    <div class="article-title">TE ATENDEMOS</div>
+
+                    <div class="article-title mt-3 mt-md-4">TE ATENDEMOS</div>
                     <span class="numbers me-3"> 987 721 182 </span>
                     <a
                         title="Abrir WhatsApp"

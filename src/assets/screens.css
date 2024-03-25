@@ -52,6 +52,11 @@
         font-size: 1.3em;
     }
 
+    .resultados-title a,
+    .resultados-title i {
+        font-size: 1.4em;
+    }
+
     .admision-registration {
         margin-bottom: 35px;
         margin-top: 30px;
@@ -239,7 +244,7 @@
         font-size: 1.9em;
     }
 
-    .use-name > h1{
+    .use-name > h1 {
         font-size: 4.5em;
     }
 

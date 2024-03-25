@@ -113,14 +113,14 @@ useSeoMeta({
                             </tr>
                             <tr>
                                 <td>Tesis I (Elaboración y Aprobación del proyecto)</td>
-                                <td>3</td>
+                                <td>5</td>
                             </tr>
 
                             <tr>
-                                <td rowspan="5">II</td>
+                                <td rowspan="4">II</td>
                                 <td>Genética del Cáncer</td>
-                                <td>5</td>
-                                <td rowspan="5">6 MESES</td>
+                                <td>4</td>
+                                <td rowspan="4">6 MESES</td>
                             </tr>
                             <tr>
                                 <td>
@@ -131,15 +131,12 @@ useSeoMeta({
                             </tr>
                             <tr>
                                 <td>Tesis II (Ejecución del proyecto)</td>
-                                <td>4</td>
-                            </tr>
-                            <tr>
-                                <td>Medicina Integrativa en Obstetricia</td>
                                 <td>5</td>
                             </tr>
+
                             <tr>
                                 <td>Rotación I: Práctica Especializada I</td>
-                                <td>3</td>
+                                <td>5</td>
                             </tr>
 
                             <tr>
@@ -149,12 +146,8 @@ useSeoMeta({
                                 <td rowspan="5">6 MESES</td>
                             </tr>
                             <tr>
-                                <td>Patología Gineco-Obstétrica II</td>
-                                <td>4</td>
-                            </tr>
-                            <tr>
                                 <td>Tratamiento del Cáncer Ginecológico y de Mamas</td>
-                                <td>5</td>
+                                <td>4</td>
                             </tr>
                             <tr>
                                 <td>Tesis III (Sustentación del informe final de la Tesis)</td>
