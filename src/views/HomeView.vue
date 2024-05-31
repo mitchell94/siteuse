@@ -2,6 +2,11 @@
 import { onMounted, ref } from 'vue'
 import { RouterLink, RouterView } from 'vue-router'
 
+import ModalInscription from '@/components/ModalInscription.vue'
+
+const showModal = ref(false)
+const counter = ref(0)
+
 onMounted(() => {
     window.addEventListener('resize', onResize)
 
@@ -34,7 +39,11 @@ onResize()
                         target="_blank"
                         title="social-facebook"
                     >
-                        <img src="../assets/img/facebook.svg" alt="Icono de acceso a la páginda de Facebook" width="28" height="28"
+                        <img
+                            src="../assets/img/facebook.svg"
+                            alt="Icono de acceso a la páginda de Facebook"
+                            width="28"
+                            height="28"
                     /></a>
                 </div>
                 <div class="col p-0">
@@ -45,18 +54,28 @@ onResize()
                             </li>
                             <li><RouterLink to="/nosotros">NOSOTROS</RouterLink></li>
                             <li><RouterLink to="/admision">ADMISIÓN</RouterLink></li>
-                            <li><RouterLink to="/obstetricia-de-alto-riesgo">ALTO RIESGO</RouterLink></li>
-                            <li><RouterLink to="/ecografia-obstetrica">ECOGRAFÍA OBSTÉTRICA</RouterLink></li>
-                            <li><RouterLink to="/salud-reproductiva">SALUD REPRODUCTIVA</RouterLink></li>
+                            <li>
+                                <RouterLink to="/obstetricia-de-alto-riesgo"
+                                    >ALTO RIESGO</RouterLink
+                                >
+                            </li>
+                            <li>
+                                <RouterLink to="/ecografia-obstetrica"
+                                    >ECOGRAFÍA OBSTÉTRICA</RouterLink
+                                >
+                            </li>
+                            <li>
+                                <RouterLink to="/salud-reproductiva">SALUD REPRODUCTIVA</RouterLink>
+                            </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-auto d-flex justify-content-end align-items-center">
                     <a
-                        href="https://usefcs.unsm.edu.pe/admin/"
+                        href="https://usefcs.unsm.edu.pe/aulavirtual/"
                         target="_blank"
                         class="me-2 btn-admin"
-                        >ADMIN</a
+                        >AULA VIRTUAL</a
                     >
                     <a
                         href="https://usefcs.unsm.edu.pe/intranet/"
@@ -68,7 +87,7 @@ onResize()
             </div>
         </div>
     </nav>
-    
+
     <main>
         <RouterView />
     </main>
@@ -110,7 +129,11 @@ onResize()
                                         height="32"
                                 /></a>
                                 <a href="https://unsm.edu.pe/" target="_blank" title="social-unsm">
-                                    <img src="../assets/img/unsm.webp" alt="Icono de acceso a la página de la universidad" width="32" height="32"
+                                    <img
+                                        src="../assets/img/unsm.webp"
+                                        alt="Icono de acceso a la página de la universidad"
+                                        width="32"
+                                        height="32"
                                 /></a>
                             </div>
                         </div>
@@ -134,10 +157,27 @@ onResize()
         </section>
     </footer>
 
-    <button class="menu-button" type="button" title="show-menu" @click="showMenu = !showMenu">
-        <span class="fa-solid fa-bars"></span>
+    <button
+        class="btn-inscription"
+        type="button"
+        title="show-modal-inscription"
+        @click="(showModal = true), counter++"
+    >
+        <i class="fa-solid fa-angle-right"></i>
+        <i class="fa-solid fa-angle-right"></i>
+        <i class="fa-solid fa-angle-right"></i>
+        <i><span class="mx-2">REGÍSTRATE</span></i>
+        <i class="fa-solid fa-angle-left"></i>
+        <i class="fa-solid fa-angle-left"></i>
+        <i class="fa-solid fa-angle-left"></i>
     </button>
-    
+
+    <button class="btn-menu" type="button" title="show-menu" @click="showMenu = !showMenu">
+        <span class="fa-solid fa-bars fa-fw" v-if="!showMenu"></span>
+        <span class="fa-solid fa-xmark fa-fw" v-else></span>
+    </button>
+
+    <ModalInscription :show-modal="showModal" :key="counter" />
 </template>
 
 <style lang="css">

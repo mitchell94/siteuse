@@ -189,6 +189,75 @@ useSeoMeta({
 </template>
 
 <style scoped>
+.eco-plan {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.eco-plan {
+    background-color: #f4fde384;
+}
+
+.eco-plan-title{
+    font-family: BarlowBold;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow:
+        -1px -1px 0 #eeeeee,
+        1px -1px 0 #eeeeee,
+        -1px 1px 0 #eeeeee,
+        1px 1px 0 #eeeeee;
+}
+
+.eco-plan-title {
+    /* color: #8dd804; */
+    color: #74ae08;
+}
+
+.eco-plan-article {
+    /* color: #8dd804; */
+    color: #85c116;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.program-list {
+    text-align: justify;
+}
+
+.plan-table-title {
+    display: flex;
+    font-size: 1.1em;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.eco-plan table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-bottom: 0;
+}
+
+.eco-plan th {
+    border: 2px solid black;
+    color: white;
+    font-family: BarlowBold;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.eco-plan th {
+    background-color: #8dd804;
+}
+
+.eco-plan td {
+    border: 2px solid black;
+    font-family: BarlowRegular;
+    font-size: 0.7em;
+    text-align: center;
+    text-wrap: balance;
+    vertical-align: middle;
+}
 @media only screen and (min-width: 1200px) {
     .header-section {
         background-image: linear-gradient(to bottom, #811633e9, #811632) !important;

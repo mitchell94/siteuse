@@ -24,48 +24,6 @@
         width: 100%;
         z-index: 1;
     }
-
-    /* SECTION STYLES - GENERAL*/
-    .section-title {
-        padding-bottom: 30px;
-    }
-
-    .section-title span:nth-child(1) {
-        font-size: 1.5em;
-    }
-
-    .section-title span:nth-child(3) {
-        font-size: 1em;
-    }
-
-    /* ADMISION SECTION STYLES */
-    .admision-section {
-        padding-bottom: 30px;
-        padding-top: 30px;
-    }
-
-    .admision-title {
-        font-size: 3.5em;
-    }
-
-    .admision-subtitle {
-        font-size: 1.3em;
-    }
-
-    .resultados-title a,
-    .resultados-title i {
-        font-size: 1.4em;
-    }
-
-    .admision-registration {
-        margin-bottom: 35px;
-        margin-top: 30px;
-    }
-
-    .admision-registration a {
-        font-size: 1.2em;
-        padding: 10px 15px 10px 15px;
-    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -91,43 +49,6 @@
     .use-name > h1 {
         font-size: 3.5em;
     }
-
-    /* SECTION STYLES - GENERAL*/
-    .section-title {
-        padding-bottom: 30px;
-    }
-
-    .section-title span:nth-child(1) {
-        font-size: 1.5em;
-    }
-
-    .section-title span:nth-child(3) {
-        font-size: 1em;
-    }
-
-    /* ADMISION SECTION STYLES */
-    .admision-section {
-        padding-bottom: 30px;
-        padding-top: 30px;
-    }
-
-    .admision-title {
-        font-size: 3.5em;
-    }
-
-    .admision-subtitle {
-        font-size: 1.3em;
-    }
-
-    .admision-registration {
-        margin-bottom: 35px;
-        margin-top: 30px;
-    }
-
-    .admision-registration a {
-        font-size: 1.2em;
-        padding: 10px 15px 10px 15px;
-    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -152,44 +73,7 @@
         font-size: 4em;
     }
 
-    /* SECTION STYLES - GENERAL*/
-    .section-title {
-        padding-bottom: 30px;
-    }
-
-    .section-title span:nth-child(1) {
-        font-size: 1.5em;
-    }
-
-    .section-title span:nth-child(3) {
-        font-size: 1em;
-    }
-
-    /* ADMISION SECTION STYLES */
-    .admision-section {
-        padding-bottom: 30px;
-        padding-top: 30px;
-    }
-
-    .admision-title {
-        font-size: 3.5em;
-    }
-
-    .admision-subtitle {
-        font-size: 1.3em;
-    }
-
-    .admision-registration {
-        margin-bottom: 35px;
-        margin-top: 30px;
-    }
-
-    .admision-registration a {
-        font-size: 1.2em;
-        padding: 10px 15px 10px 15px;
-    }
-
-    .menu-button {
+    .btn-menu {
         display: none;
     }
 
@@ -228,7 +112,6 @@
 }
 
 @media only screen and (min-width: 1200px) {
-    /* HEADER SECTION STYLES */
     .logo {
         display: block;
         height: 128px;
@@ -247,47 +130,9 @@
     .use-name > h1 {
         font-size: 4.5em;
     }
-
-    /* SECTION STYLES - GENERAL*/
-    .section-title {
-        padding-bottom: 30px;
-    }
-
-    .section-title span:nth-child(1) {
-        font-size: 2.4em;
-    }
-
-    .section-title span:nth-child(3) {
-        font-size: 1.5em;
-    }
-
-    /* ADMISION SECTION STYLES */
-    .admision-section {
-        padding-bottom: 30px;
-        padding-top: 30px;
-    }
-
-    .admision-title {
-        font-size: 5em;
-    }
-
-    .admision-subtitle {
-        font-size: 1.8em;
-    }
-
-    .admision-registration {
-        margin-bottom: 35px !important;
-        margin-top: 30px !important;
-    }
-
-    .admision-registration a {
-        font-size: 1.2em;
-        padding: 10px 15px 10px 15px;
-    }
 }
 
 @media only screen and (min-width: 1400px) {
-    /* NAV STYLES */
     nav {
         padding-left: 170px;
         padding-right: 170px;
@@ -296,11 +141,5 @@
     .parent-container {
         padding-left: 170px;
         padding-right: 170px;
-    }
-
-    .aro-plan-title,
-    .eco-plan-title,
-    .cacu-plan-title {
-        font-size: 1.7em;
     }
 }

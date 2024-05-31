@@ -173,6 +173,73 @@ useSeoMeta({
 </template>
 
 <style scoped>
+.cacu-plan {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.cacu-plan {
+    background-color: #fae6e5;
+}
+
+.cacu-plan-title {
+    font-family: BarlowBold;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow:
+        -1px -1px 0 #eeeeee,
+        1px -1px 0 #eeeeee,
+        -1px 1px 0 #eeeeee,
+        1px 1px 0 #eeeeee;
+}
+
+.cacu-plan-title {
+    color: #fa549e;
+}
+
+.cacu-plan-article {
+    color: #fa549e;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.program-list {
+    text-align: justify;
+}
+
+.plan-table-title {
+    display: flex;
+    font-size: 1.1em;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.cacu-plan table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-bottom: 0;
+}
+
+.cacu-plan th {
+    border: 2px solid black;
+    color: white;
+    font-family: BarlowBold;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.cacu-plan th {
+    background-color: #fa549e;
+}
+
+.cacu-plan td {
+    border: 2px solid black;
+    font-family: BarlowRegular;
+    font-size: 0.7em;
+    text-align: center;
+    text-wrap: balance;
+    vertical-align: middle;
+}
 @media only screen and (min-width: 1200px) {
     .header-section {
         background-image: linear-gradient(to bottom, #811633e9, #811632) !important;

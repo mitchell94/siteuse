@@ -184,6 +184,74 @@ useSeoMeta({
 </template>
 
 <style scoped>
+.aro-plan {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.aro-plan {
+    background-color: #f4f8ff;
+}
+
+.aro-plan-title {
+    font-family: BarlowBold;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow:
+        -1px -1px 0 #eeeeee,
+        1px -1px 0 #eeeeee,
+        -1px 1px 0 #eeeeee,
+        1px 1px 0 #eeeeee;
+}
+
+.aro-plan-title {
+    color: #03437d;
+}
+
+.aro-plan-article {
+    color: #03437d;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.program-list {
+    text-align: justify;
+}
+
+.plan-table-title {
+    display: flex;
+    font-size: 1.1em;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.aro-plan table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-bottom: 0;
+}
+
+.aro-plan th {
+    border: 2px solid black;
+    color: white;
+    font-family: BarlowBold;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.aro-plan th {
+    background-color: #03437d;
+}
+
+.aro-plan td {
+    border: 2px solid black;
+    font-family: BarlowRegular;
+    font-size: 0.7em;
+    text-align: center;
+    text-wrap: balance;
+    vertical-align: middle;
+}
+
 @media only screen and (min-width: 1200px) {
     .header-section {
         background-image: linear-gradient(to bottom, #811633e9, #811632) !important;

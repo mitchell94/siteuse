@@ -73,7 +73,7 @@ useSeoMeta({
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 mt-3 mt-md-0">
+                <div class="col-md-6">
                     <div class="row">
                         <div class="col section-title"><span>VISIÓN</span></div>
                     </div>
@@ -144,10 +144,49 @@ useSeoMeta({
 </template>
 
 <style scoped>
+.section-title {
+    color: #811632;
+    font-size: 1.2em;
+    font-weight: 700;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.autoridades-section {
+    padding-bottom: 25px;
+}
+
+.autoridad {
+    background-color: rgb(247, 247, 247);
+}
+
+.autoridad div:nth-child(1) {
+    color: #434343;
+    font-family: BarlowBold;
+    text-align: center;
+}
+
+.autoridad div:nth-child(2) {
+    color: rgb(135, 135, 135);
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 492px) {
+    .section-title {
+        font-size: 1.5em;
+    }
+}
+
 @media only screen and (min-width: 1200px) {
     .header-section {
         background-image: linear-gradient(to bottom, #811633e9, #811632) !important;
         position: initial !important;
+    }
+    
+    .section-title {
+        font-size: 2.4em;
     }
 }
 </style>

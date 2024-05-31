@@ -53,7 +53,7 @@ let preventClick = (e) => {
             <div class="row">
                 <div class="col d-flex align-items-center justify-content-center">
                     <div class="text-center">
-                        <div class="admision-title">ADMISIÓN 2024-I</div>
+                        <div class="admision-title">ADMISIÓN 2024-II</div>
                         <div class="admision-subtitle">Segunda Especialidad en Obstetricia</div>
                         <div class="admision-registration">
                             <RouterLink to="/admision">VER ADMISIÓN</RouterLink>
@@ -140,12 +140,204 @@ let preventClick = (e) => {
 </template>
 
 <style scoped>
+.admision-section {
+    background-color: #eef6f5;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.admision-title {
+    color: #4f0e30;
+    font-family: BarlowCondensedBold;
+    font-size: 3em;
+    line-height: 1;
+}
+
+.admision-subtitle {
+    color: #811632;
+    font-family: OpenSans;
+    font-size: 1.5em;
+    line-height: 1;
+    margin-top: 15px;
+}
+
+.admision-registration {
+    margin-bottom: 20px !important;
+    margin-top: 25px !important;
+}
+
+.admision-registration a {
+    background-color: #811632;
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: 700;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+/* SECTION STYLES - GENERAL*/
+.section-title {
+    padding-bottom: 20px;
+}
+
+.section-title span {
+    color: #811632;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* PROGRAMAS SECTION STYLES */
+.programas-section {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.aro-card,
+.eco-card,
+.cacu-card {
+    border: none !important;
+    font-family: BarlowBold;
+}
+
+.card-img-top {
+    border-radius: 0 !important;
+}
+
+.aro-card .card-body {
+    background-color: #f4f8ff;
+    padding-top: 20px;
+}
+
+.eco-card .card-body {
+    background-color: #f4fde3;
+    padding-top: 20px;
+}
+
+.cacu-card .card-body {
+    background-color: #fae6e5;
+    padding-top: 20px;
+}
+
+.program-card .card-text {
+    text-shadow:
+        -1px -1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
+}
+
+.aro-card .card-text {
+    color: #03437d;
+}
+
+.eco-card .card-text {
+    color: #8dd804;
+}
+
+.cacu-card .card-text {
+    color: #fa549e;
+}
+
+.card .card-body div {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-aro,
+.btn-eco,
+.btn-cacu {
+    color: white !important;
+    font-family: BarlowBold !important;
+    font-size: 0.7em !important;
+}
+
+.btn-aro {
+    background-color: #03437d !important;
+}
+
+.btn-eco {
+    background-color: #8dd804 !important;
+}
+
+.btn-cacu {
+    background-color: #fa549e !important;
+}
+
+@media only screen and (min-width: 492px) {
+    .admision-section {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .admision-title {
+        font-size: 3.5em;
+    }
+
+    .admision-subtitle {
+        font-size: 1.8em;
+    }
+
+    .admision-registration {
+        margin-bottom: 30px !important;
+        margin-top: 35px !important;
+    }
+
+    .admision-registration a {
+        font-size: 1.2em;
+    }
+
+    .admision-title {
+        color: #4f0e30;
+        font-family: BarlowCondensedBold;
+        font-size: 3em;
+        line-height: 1;
+    }
+    
+    /* SECTION STYLES - GENERAL*/
+    .section-title {
+        padding-bottom: 30px;
+    }
+
+    .section-title span {
+        font-size: 1.5em;
+    }
+}
+
+/* @media only screen and (min-width: 992px) {
+    .card {
+        font-size: 1.3em;
+    }
+} */
+
 @media only screen and (min-width: 1200px) {
     .header-section {
         background-image: linear-gradient(to bottom, #81163390, #81163389) !important;
         position: absolute !important;
         width: 100% !important;
         z-index: 2 !important;
+    }
+
+    /* ADMISION SECTION STYLES */
+    .admision-section {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .admision-title {
+        font-size: 5em;
+    }
+
+    .admision-subtitle {
+        font-size: 1.8em;
+    }
+
+    /* SECTION STYLES - GENERAL*/
+    .section-title {
+        padding-bottom: 30px;
+    }
+
+    .section-title span {
+        font-size: 2.4em;
     }
 }
 </style>
