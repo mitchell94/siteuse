@@ -240,6 +240,21 @@ useSeoMeta({
     text-wrap: balance;
     vertical-align: middle;
 }
+
+.admision-registration {
+    margin-bottom: 20px !important;
+    margin-top: 25px !important;
+}
+
+.admision-registration a {
+    background-color: #811632;
+    color: #fff;
+    /* font-size: 0.9em; */
+    font-weight: 700;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
 @media only screen and (min-width: 1200px) {
     .header-section {
         background-image: linear-gradient(to bottom, #811633e9, #811632) !important;

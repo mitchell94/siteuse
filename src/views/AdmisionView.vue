@@ -15,15 +15,6 @@ useSeoMeta({
     ogDescription:
         '¿Quieres empezar tus estudios de Segunda Especialidad en Obstetricia?, aquí te mostramos los requisitos.'
 })
-
-const programs = ref([])
-const getPrograms = async () => {
-    // const response = await fetch('http://localhost:8899/api/web/programs')
-    const response = await fetch('https://usefcs.unsm.edu.pe/api/web/programs')
-    const responseData = await response.json()
-    programs.value = responseData.programs
-}
-getPrograms()
 </script>
 
 <template>
@@ -84,15 +75,15 @@ getPrograms()
             </div> -->
             <div class="row">
                 <div class="col">
-                    <div class="list-group">
+                    <div class="list-group list-programs">
                         <RouterLink
                             to="/obstetricia-de-alto-riesgo"
                             class="list-group-item list-group-item-action"
                         >
                             <div class="d-flex w-100 justify-content-between">
                                 <h5 class="mb-1">
-                                    1. Segunda Especialidad en Obstetricia de Alto Riesgo con
-                                    mención en Cuidados Intensivos Maternos
+                                    Segunda Especialidad en Obstetricia de Alto Riesgo con mención
+                                    en Cuidados Intensivos Maternos
                                 </h5>
                             </div>
                         </RouterLink>
@@ -102,7 +93,7 @@ getPrograms()
                         >
                             <div class="d-flex w-100 justify-content-between">
                                 <h5 class="mb-1">
-                                    2. Segunda Especialidad en Ecografía Obstétrica con mención en
+                                    Segunda Especialidad en Ecografía Obstétrica con mención en
                                     Monitoreo Fetal Electrónico
                                 </h5>
                             </div>
@@ -113,7 +104,7 @@ getPrograms()
                         >
                             <div class="d-flex w-100 justify-content-between">
                                 <h5 class="mb-1">
-                                    3. Segunda Especialidad en Salud Reproductiva con mención en
+                                    Segunda Especialidad en Salud Reproductiva con mención en
                                     Prevención de Cáncer de Cuello Uterino y Mama
                                 </h5>
                             </div>
@@ -296,8 +287,9 @@ getPrograms()
     margin-top: 15px;
 }
 
-.objetive-public {
-    font-weight: bold;
+.list-programs h5 {
+    text-align: justify;
+    font-weight: normal;
 }
 
 .requirements-list {
@@ -450,12 +442,6 @@ th {
 }
 
 @media only screen and (min-width: 492px) {
-    .objetive-public {
-        font-size: 1.4em;
-        font-weight: bold;
-        margin-top: 20px;
-    }
-
     .requirements-list {
         font-size: 1.2em;
         list-style-type: circle;
